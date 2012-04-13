@@ -24,10 +24,10 @@
 ''
 CON
   'Com port pins
-  com_RxPin     = 10
-  com_TxPin     = 11
-  com_RtsPin    = 12
-  com_CtsPin    = 13
+  com_RxPin     = 30       'changed for Mizar32
+  com_TxPin     = 31       'changed for Mizar32
+  com_RtsPin    = 32       'disable flow control
+  com_CtsPin    = 32       'disable flow control
   
   'USB port pins
   usb_LsDataPin     =  0
